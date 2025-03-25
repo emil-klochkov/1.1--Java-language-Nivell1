@@ -9,7 +9,7 @@ public class Main {
 
 
         Car car1 = new Car("Corolla", 150);
-        System.out.println("Car potential: " + car1.potential);
+        System.out.println("Car power: " + car1.POWER);
 
         Car.brake();
 

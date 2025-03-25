@@ -1,6 +1,6 @@
 package Level1.exercise1;
 
-public abstract class Tools {
+public abstract class instruments {
 
     protected String name;
     protected double price;
@@ -11,14 +11,12 @@ public abstract class Tools {
     }
 
 
-    {
+
+    public instruments(String name, double price) {
+        this.name = name;
+        this.price = price;
         System.out.println("A new instrument has been created.");
     }
 
-    public Tools(String name, double price) {
-        this.name = name;
-        this.price = price;
-    }
-
-    public abstract void touch();
+    public abstract void play();
 }

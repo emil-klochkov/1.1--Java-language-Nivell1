@@ -3,12 +3,12 @@ package Level1.exercise2;
 public class Car {
     public static final String BRAND = "Toyota";
     public static String model;
-    public final int potential;
+    public final int POWER;
 
 
-    public Car(String brand, int potential) {
+    public Car(String brand, int POWER) {
         Car.model = model;
-        this.potential = potential;
+        this.POWER =POWER;
     }
 
 

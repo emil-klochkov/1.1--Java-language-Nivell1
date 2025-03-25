@@ -5,22 +5,22 @@ public class Main {
 
 
         System.out.println("Accessing a static member of the Wind class..");
-        System.out.println(Wind_tools.class.getName());
+        System.out.println(Wind_instruments.class.getName());
 
 
         System.out.println("\nCreating an object with class Wind...");
-        Wind_tools flute = new Wind_tools("Flute", 120.0);
-        flute.touch();
+        Wind_instruments flute = new Wind_instruments("Flute", 120.0);
+        flute.play();
 
 
         System.out.println("\nCreating an object with class String...");
-        String_tools guitar = new String_tools("Guitar", 300.0);
-        guitar.touch();
+        String_instruments guitar = new String_instruments("Guitar", 300.0);
+        guitar.play();
 
 
         System.out.println("\nCreating an object with class Percussion...");
-        Percussion_tools Drum = new Percussion_tools("Drum", 80.0);
-        Drum.touch();
+        Percussion_instruments drum = new Percussion_instruments("Drum", 80.0);
+        drum.play();
 
     }
 }

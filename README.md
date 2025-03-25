@@ -1,16 +1,17 @@
 # 1.1--Java-language-Nivell1
 Ejercicio 1:
 
-1.Instrumentos.java (Clase abstracta)
+# 1.Instrumentos.java (Clase abstracta) 
+
 Es la clase base para todos los instrumentos.
 Tiene dos atributos: nombre y precio.
 Define un método abstracto tocar(), que las clases hijas deben implementar.
 Imprime un mensaje cuando se crea un instrumento.
-2.InstrumentosViento.java (Hereda de Instrumentos)
+# 2.InstrumentosViento.java (Hereda de Instrumentos)
 Representa instrumentos de viento (ej. flauta).
 Sobrescribe tocar() para imprimir: "Está sonando un instrumento de viento".
 Tiene un bloque static {} que imprime un mensaje cuando se carga la clase.
-3.InstrumentosCuerda.java (Hereda de Instrumentos)
+# 3.InstrumentosCuerda.java (Hereda de Instrumentos)
 Representa instrumentos de cuerda (ej. guitarra).
 Sobrescribe tocar() para imprimir: "Está sonando un instrumento de cuerda".
 También tiene un bloque static {} para mostrar cuándo se carga la clase.

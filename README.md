@@ -25,3 +25,12 @@ Llama al método tocar() de cada uno, mostrando los mensajes correspondientes.
 
 Ejercicio 2:
 
+1.Car.java (Clase del coche):
+Define un coche con la marca "Toyota", un modelo (static) y una potencia (final).
+Tiene un método estático brake() (puede llamarse sin crear un coche).
+Tiene un método de instancia accelerate() (requiere un objeto Car).
+2️.Main.java (Punto de entrada):
+Muestra la marca del coche.
+Cambia el modelo (Car.model = "Corolla";).
+Crea un coche con potencia 150.
+Llama a brake() y accelerate().
